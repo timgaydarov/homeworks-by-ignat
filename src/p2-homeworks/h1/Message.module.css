@@ -1,3 +1,51 @@
 .message {
-
+  background-color: #66cdaa;
+  display: flex;
+  min-height: 100px;
+  align-items: center;
 }
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.dialog_window {
+  position: relative;
+  margin-left: 15px;
+  padding: 7px;
+  background-color: #2F2C30;
+  border-radius: 7px 7px 7px 0px;
+}
+
+.dialog_window::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 100%;
+  display: block;
+  width: 30px;
+  height: 20px;
+  background: radial-gradient(60px at top left, transparent 49%, #2F2C30 51%) no-repeat right bottom;
+  margin-right: -1px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #896590;
+}
+
+.time {
+  margin-left: 10px;
+  color: #7A707C;
+}
+
+.user_message {
+  font-size: 17px;
+  color: white;
+}
+
