@@ -2,10 +2,10 @@ import React from 'react'
 import classes from "./Message.module.css";
 
 type MessageDataType = {
-  avatar: any
+  avatar: string
   name: string
   message: string
-  time: any
+  time: string
 }
 
 function Message(props: MessageDataType) {
